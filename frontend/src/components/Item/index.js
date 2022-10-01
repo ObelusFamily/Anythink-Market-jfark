@@ -44,7 +44,7 @@ class Item extends React.Component {
     const canModify =
       this.props.currentUser &&
       this.props.currentUser.username === this.props.item.seller.username;
-      console.log('%cindex.js line:47 this.props.item', 'color: #007acc;', this.props.item);
+
     return (
       <div className="container page">
         <div className="text-dark">
